@@ -19,15 +19,20 @@ const categoryLabels: Record<string, string> = {
 export default function CreaturesPage() {
   return (
     <main className="min-h-screen bg-[#0a1628]">
-      <div className="px-4 pt-6 pb-4">
-        <h1 className="text-2xl font-bold text-white mb-2">Creature Database</h1>
-        <p className="text-[#e6f7ff]/60 text-sm">
-          {creatures.length} creatures catalogued. Know what lurks in the depths.
-        </p>
+      <div className="px-4 pt-24 pb-4">
+        <div className="max-w-6xl mx-auto">
+          <span className="inline-block px-3 py-1 rounded-full bg-[#00d4ff]/10 text-[#00d4ff] text-sm font-medium mb-4">
+            生物数据库
+          </span>
+          <h1 className="text-3xl md:text-4xl font-bold text-white mb-2">Creature Database</h1>
+          <p className="text-[#e6f7ff]/60">
+            {creatures.length} 种生物已收录。了解深海中潜伏的一切。
+          </p>
+        </div>
       </div>
 
-      <div className="px-4 pb-6">
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
+      <div className="px-4 pb-16">
+        <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4">
           {creatures.map((c) => {
             const danger = dangerConfig[c.dangerLevel];
             const DangerIcon = danger.icon;

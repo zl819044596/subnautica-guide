@@ -29,7 +29,7 @@ const features = [
 ];
 
 const quickGuides = [
-  { title: "Beginner's Guide — First Hours", href: "/beginner-guide" },
+  { title: "新手攻略 - 完全新手指南", href: "/beginner-guide" },
   { title: "Base Building Tips & Tricks", href: "/biomes/base-building" },
   { title: "Depth & Pressure Survival Chart", href: "/depth-chart" },
   { title: "Leviathan Locations & Avoidance", href: "/creatures/leviathan" },

@@ -3,14 +3,28 @@ import "./globals.css";
 import Nav from "@/components/nav";
 
 export const metadata: Metadata = {
-  title: "Subnautica 2 Guide - Interactive Map, Creatures & Crafting",
-  description: "The ultimate Subnautica 2 guide with interactive map, creature database, crafting calculator, and AI helper. Find resources, biomes, and survive the depths.",
-  keywords: "subnautica 2 guide, subnautica 2 map, subnautica 2 interactive map, subnautica 2 creatures, subnautica 2 crafting",
+  title: "深海迷航2指南 - 交互式地图、生物数据库、AI助手 | Subnautica Guide",
+  description: "最全面的深海迷航2攻略网站：交互式地图、50+生物数据库、制作计算器、AI问答助手。查找资源位置、生物群落、生存技巧，助你探索4546B星球。",
+  keywords: ["深海迷航2 攻略", "Subnautica 2 地图", "深海迷航 生物", "Subnautica 制作", "深海迷航 新手教程"],
   openGraph: {
-    title: "Subnautica 2 Guide - Interactive Map & AI Helper",
-    description: "Your complete Subnautica 2 survival companion. Interactive map, creature locations, crafting recipes, and AI-powered help.",
+    title: "深海迷航2指南 - 交互式地图 & AI助手",
+    description: "你的深海迷航2生存伴侣。交互式地图、生物位置、制作配方、AI智能帮助。",
     type: "website",
     url: "https://subnautica.getfitai.io",
+  },
+  alternates: {
+    canonical: "https://subnautica.getfitai.io",
+  },
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      'max-video-preview': -1,
+      'max-image-preview': 'large',
+      'max-snippet': -1,
+    },
   },
 };
 
