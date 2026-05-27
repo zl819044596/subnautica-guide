@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Nav from "@/components/nav";
 
 export const metadata: Metadata = {
   title: "Subnautica 2 Guide - Interactive Map, Creatures & Crafting",
@@ -21,6 +22,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className="antialiased min-h-screen">
+        <Nav />
         {children}
       </body>
     </html>
