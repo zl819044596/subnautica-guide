@@ -30,7 +30,7 @@ const features = [
 
 const quickGuides = [
   { title: "新手攻略 - 完全新手指南", href: "/beginner-guide" },
-  { title: "Base Building Tips & Tricks", href: "/biomes/base-building" },
+  { title: "Base Building Tips & Tricks", href: "/blog/base-building" },
   { title: "Depth & Pressure Survival Chart", href: "/depth-chart" },
   { title: "Leviathan Locations & Avoidance", href: "/creatures/leviathan" },
   { title: "Vehicle Upgrade Priorities", href: "/crafting/vehicles" },
